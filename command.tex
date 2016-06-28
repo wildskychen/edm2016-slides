@@ -80,15 +80,21 @@
 \end{frame} 
 
 
-\section{The Learning Problem}
+\section{Introduction}
 
-\begin{frame}{Modeling the Knowledge Graph as A Bayesian Network}
+\begin{frame}{Knowledge graphs}
 	
-	{\small Bayesian networks can}
+	{\small Knowledge Graphs (a.k.a prerequisite networks):}
 	\begin{itemize}\small
-		\item model the prerequisite relationships between skills and the dependencies between skills and items.
-		\item provide a compact representation of the joint distribution over skill and item variables.
+		\item  Are useful for  Intelligent Tutoring Systems that assess  student knowledge or that provide remediation to learners
+		\item Model the prerequisite relationships between skills and the dependencies between skills and items
+		\item Bayesian networks can represent Knowledge Graphs
 	\end{itemize}
+\end{frame}
+
+\begin{frame}{Bayesian Networks}
+	
+	Bayesian networks provide a compact representation of the joint distribution over skill and item variables.
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[scale = .48]{figures/studentmodel-as-BN.png}
@@ -96,9 +102,9 @@
 	\end{figure}
 \end{frame}
 
-\begin{frame}{The Learning Problem}
+\begin{frame}{Prerequisite Discovery as a Machine Learning Problem}
 		\begin{itemize}\small
-			\item Given student performance data, what items a learner answers correctly
+			\item Student performance data (what items a learner answers correctly)
 			\item Skill-to-item mapping $Q$-matrix is known
 			\item Student's mastery of a skill is unknown $\rightarrow$ latent variables
 			\item Learning Bayesian networks with latent variables 
@@ -111,7 +117,7 @@
 	\end{figure}
 \end{frame}
 
-\begin{frame}{Prior Work}
+\begin{frame}{Related Prior Work}
 	
 	\begin{itemize}\small
 		\item Brunskill (2010) and Chen et al. (2015)'s work:

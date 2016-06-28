@@ -1,9 +1,9 @@
 \beamer@endinputifotherversion {3.36pt}
-\beamer@sectionintoc {1}{The Learning Problem}{3}{0}{1}
-\beamer@sectionintoc {2}{The COMMAND Algorithm}{6}{0}{2}
-\beamer@subsectionintoc {2}{1}{Structural EM}{7}{0}{2}
-\beamer@subsectionintoc {2}{2}{Discriminate Between Equivalent BNs}{14}{0}{2}
-\beamer@sectionintoc {3}{Evaluation}{17}{0}{3}
-\beamer@subsectionintoc {3}{1}{Synthetic Data}{17}{0}{3}
-\beamer@subsectionintoc {3}{2}{Real-World Data}{26}{0}{3}
-\beamer@sectionintoc {4}{Conclusion}{31}{0}{4}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{The COMMAND Algorithm}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Structural EM}{8}{0}{2}
+\beamer@subsectionintoc {2}{2}{Discriminate Between Equivalent BNs}{15}{0}{2}
+\beamer@sectionintoc {3}{Evaluation}{18}{0}{3}
+\beamer@subsectionintoc {3}{1}{Synthetic Data}{18}{0}{3}
+\beamer@subsectionintoc {3}{2}{Real-World Data}{27}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{32}{0}{4}
